@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/*NavBar*/
+.navbar {
+    background-color: rgb(91, 188, 217);
+    color: #ffffff;
+    border-style: none;
+}
+
+#nav-title {
+    color: #ffffff;
+    font-family: Pacifico;
+    line-height: 1.4;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    line-height: 2;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: inherit;
+}
+
+#logo-nav {
+    margin-left: 10px;
+    height: 30px;
+    color: white;
+    line-height: 2;
+}
+
+/*Top Section*/
+
+.jumbotron {
+    height: 100vh;
+    background-image: url('https://lh3.googleusercontent.com/erRYYEL1rkGXodPrCeBDp43BxRNQjmmvskLVCq1RIgRZqmBpD9jDgrsAAhceSWxPOZnGHwhkXuu4WgaOgGNagCaAdU7po9VTtay2ESRZgaaV2OnB1D4HxO8VsTwkBP_rhyiamPWEvZWGZHpKplY35iiUGzAndT9yED7MM6XmCijk-9fKCwzhYbS8mNuEMmmTFZ-YJaNg4Oh8iCBjr1HnJE6_uMkOjaSQa1bLoIWEYbeW2Qb_KwcdDvpTeQvTe6uPSldkfBOyKKa-vYN95nZLCsoy1Ov7jkLzBqfIFUjJ6VPchtgz7mjzQeSS41BZAGOaobdvdJJGuscGx8fp3U6AtzjZd3N3sqUxWV6rHJf2aXAK-kA9mNeqc5umc802G44QAbGIfXGu7He94FmUhFoht_xqNVsBdngLyAYK0uds2RMKIqrHFlfyXQQIxu0BqLK5bqo_TqxfPk-MSU01souSOeoX24eOPijtn_oQ5xwBmw5Wp_65NAZWwdJuJ6H1XDa_zzpbo9hWTAepPJtegeUdWda7YUvSK5eV5fe3C2EL7Vvx7Z-LR6Y9LuqQLPphJzMpUNSx3D1gMqMdLU1JrrOHYYDlIpVuufE=w473-h316-no?.jpg');
+    background-repeat: none;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.welcome-msg {
+    float:left;
+    color: white;
+    text-shadow: 5px 5px 10px #575757;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-btn {
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 15px;
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+    color: white;
+}
+
+/*Menu*/
+.menu {
+    padding: 35px;
+    font-family: Heiti SC;
+    background-color: #fcecd6;
+    color: black;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.menu.fade-in {
+    opacity: 1;
+}
+
+#menu-items {
+    list-style: none;
+    margin-left: -35px;
+}
+
+/*About*/
+.about {
+    background: url('https://lh3.googleusercontent.com/EM3Y_i4-wnB6ull0dlbTC0GpKc2J43cnXv-LgMtTncY2Iq4oxoKE7CZ7E9xYjGLCsrgMMKJHQUw71TtiO2Q4_ekgIP1X2LbLRMRZAaczDfce1dom1vmieOj3V1t5ihoq3vvt3P3gKapUgyDyyYQrBriYRps5uDJFtEzy3L0XOA8VqArVZQcHNTu4pSM9bngovtZmxdJ1PLky_ieo2ZKjPHS1mli9j42RJxiS3PZsdK3sIQWPvqAQ-wMxwMvubGJ6UiCrR0pwnQ7yEUEEqs9PnS-sWAgXh4HmBSg5C4BWh-EZ6AxRS8rOf0_QVXuK8IR1d-DHo6525cxGFnCUG0gNBoDVngI9qPquTmag7zqGwp3qnB7Kw_tkExbxp6zhdGLFceS35OBFfVhNnZEKo7TwmDsyhbFSBIXvhj0ReoC2hA543_lSj2EBKe3Cqug-VH_Ks-hnYMYPAv9T1IbxjLvhJg8e4OHf33ZjsJ68OrEf7BILYkjg2SvB2QcrNltqFikJAUhOpKvzcmLmNRIMByIwqRKTKHtQOvU1Pt6HjpnunpdoN5l_t-s2pZlWg-MALbZwjkYwzb4QEzNugbCnHvM77HNGRDJRZHE=w960-h539-no?.jpg');
+}
+
+
+.about-img {
+    height: 200px;
+    border: 10px solid white;
+    box-shadow: 5px 5px 10px black;
+}
+
+.about-story {
+    padding: 35px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    padding: 35px;
+}
+
+/*Contact*/
+.contact {
+    background-color: rgb(91, 188, 217);
+    color: white;
+    padding: 35px;
+}
