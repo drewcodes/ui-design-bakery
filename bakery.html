@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<!--www.drewcodes.io -->
+
+<head>
+    <title> Sweet Bites Concept UI</title>
+    <!--Char and Device Viewport Settings-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--GOOGLE FONT LINK-->
+    <link href='https://fonts.googleapis.com/css?family=Pacifico|Muli' rel='stylesheet' type='text/css'>
+    <!--Font Awesome Link-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--scrollmagic-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <!--GSAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <!--jQuery CDN Link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--Javascript Link-->
+    <script type="text/javascript" src="bakery.js"></script>
+    <!--CSS Link-->
+    <link rel="stylesheet" type="text/css" href="bakery.css"> </head>
+
+<body>
+    <!--Bootstrap Navbar with FIXED TOP POSITION-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span id="menu-bars"><i class="fa fa-bars"></i></span> </button>
+                <!--Navbar Logo and Name-->
+                <a id="nav-title" class="navbar-brand" href="#"> <span><img id="logo-nav">Sweet Bites</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Top-Section-->
+    <a id="home"></a>
+    <div class="jumbotron">
+        <div class="welcome-msg text-center">
+            <h1 id="msg" style="font-family: Pacifico;">Sweet Bites</h1>
+            <hr>
+            <h4 id="msg2">A Handcrafted Confectionary Experience</h4> </div>
+    </div>
+    <!--Menu-->
+    <a id="menu"></a>
+    <div class="menu text-center">
+        <div id="menu-slide" class="row">
+            <h1 style="font-family: Pacifico;">Sweet Bites</h1>
+            <h5>Handcrafted Cakes and Confectionaries</h5>
+            <h6>Everything is made fresh to order.</h6>
+            <div class="col-md-4 col-sm-4">
+                <h3 style="font-family: Pacifico;"><i class="fa fa-birthday-cake" aria-hidden="true"></i> Cakes <i class="fa fa-birthday-cake" aria-hidden="true"></i></h3>
+                <h6><em>Please SELECT a flavor</em></h6>
+                <ul id="menu-items">
+                    <li>Chocolate Hazelnut</li>
+                    <li>Cream Cheese</li>
+                    <li>Butter Cream</li>
+                    <li>Coconut</li>
+                    <li>Cannoli Cream</li>
+                    <li>Tiramisu</li>
+                    <li>Peanut Butter Crunch</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <h3 style="font-family: Pacifico;"><i class="fa fa-star" aria-hidden="true"></i> Cupcakes <i class="fa fa-star" aria-hidden="true"></i></h3>
+                <h6><em>Please SELECT 1/2 or Whole Dozens</em></h6>
+                <ul id="menu-items">
+                    <li>Strawberry Cream</li>
+                    <li>Chocolate Chip Mint</li>
+                    <li>Vanilla</li>
+                    <li>Carrot Cake</li>
+                    <li>Mango Frost</li>
+                    <li>Boston Cream</li>
+                    <li>Pina Colada</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <h3 style="font-family: Pacifico;"><i class="fa fa-coffee" aria-hidden="true"></i> Other Thangs <i class="fa fa-coffee" aria-hidden="true"></i></h3>
+                <h6><em>Everything else sweet and scrumptious!</em></h6>
+                <ul id="menu-items">
+                    <li>Tres Leche Cake</li>
+                    <li>Flan</li>
+                    <li>Cannoli and Chocolate Chip Double Layer Cake</li>
+                    <li>Pineapple and Coconut Flakes</li>
+                    <li>Upside Down Cake</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--About-->
+    <a id="about"></a>
+    <div class="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 about-section">
+                    <center> <img class="img img-responsive about-img" src="https://lh3.googleusercontent.com/75ukCcUsv8MCBB025qRpsVVhD-Rr9IuIjpFHwcrk6pGu0MdZLjlVH6FoNqaf2osCb9Pauro3x2HaYfLM1cfwzzBWSopabG5LGY8Ao9nCxAVW5ir2saNDic8sa1lYfJN0hK2gtCcCrZsdwG3mgVUgZ3Nn1q5iPHesZYbBY1QagfnJRd2yHbIPQV2E0LtslkVEvFdrczOs790os72Ps_KJT_I11MxI-Fq9IDBeOdqPv-NTZTsHLuoKLKXyUMPXMxuaDZiuzpeR2RIN_P_hRJ9IS7ZgKqDCn31Cv3KdBfBhNvqmC09ZTe6LIAOCc2DB1MMgPqM9IvGGcpqyGeHgMAx9AB18tDXrre3ANpkvcr5cosFl6eW-pR-yvBqbTnJuQenZgVjH0lCjQ1veyvW8W8gWsQV8aoPdxFZ-1AylLZWnc8BjZHOdkiN5tYQ33TrgQTGuVVzmGenT49HGzmlNjyg6SnKvW8weIdgBmPXl-vUlwIrQGwaJDLmF3EIqhN9KlCpgiTz0nz4tkpN-daav68IOXqPLRxI8LSyWVmjkxUGX-cDO41Nw-7gGN_Vct0mX6ct8aDNOfopx969yjL-nh1LA3BK6xaji6gw=w660-h440-no?.jpg"> </center>
+                </div>
+                <div class="col-md-4 about-story about-section">
+                    <h2 class="text-center" style="font-family:'Pacifico';">The Sweet Bites Story</h2>
+                    <p>Sweet Bites was started by Sarah, a stay-at-home mom, who has an endless love for baking. Having graduated from a pastry program at one of the most prestigious culinary schools, Sarah has created countless cakes, pastries and other fine desserts. All items on our menu are handcrafted daily and delivered straight to your door. We hope you enjoy what Sweet Bites has to offer.</p>
+                </div>
+                <div class="col-md-4 about-section">
+                    <center> <img class="img img-responsive about-img" src="https://lh3.googleusercontent.com/hYF9TyLT9bhjhZW73QdTJWZuZf3GxqY02jpwkgxrpfXpAwxnCQh-C4X1slumaWgb3uVtiZNnOmmtywYkX_Qy68sbYzRjmbcVI8wefOcUorAs3MCGKaou3DhJZP8ShdfWUKJiI5bGJhB3xvNlwL7e-cMKMN6dZomlAWM0KERIDTEglQM4HeCirEaxVkSjK7jQ32zrxOtVmIsFAox6FM63OZSu2QHTOnN8efR7DvKA3ci9KS6KWx_y-BZ5GE947kaL8wG_hSkyDSOhKhktXLg8D1xB42KwWCDW_t4pbCek7di_BWIGDdEMg6-xUVInyNaMoVav6D8EqvWbrP_jQwtLi56WYyGOhr1AZSD_SmhFy4ZmS8fqfpCdmSsFpTTXpB4DJc7PAJvG6ZYqU5uTxPhJclvOdmd2YhPxGW8fKr5JFx2LsDfryvSUjs6u9fpEUFqs_xovrhkXiAseOmYF7GdEpcJkkLSpHsuggOJW4lETq0_MUCNksl9ESQnIMPCUw7vxenp-3hrAp3LF6TJnsHt0vMmnsFH7O4LJyTeUVKJRlwe16duo5ATBQqJc7QUNsynUmCNGU8uf9SCQgMqD4Vkgc8qIxFqxSWg=w662-h440-no?.jpg"> </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
+    <a id="contact"></a>
+    <div class="contact">
+        <div class="container-fluid">
+            <h1 style="font-family:'Pacifico';">Contact Us!</h1>
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <h3 style="font-family:Muli;">Custom Orders</h3>
+                    <p>Please call us directly so we can accommodate your customized order.</p>
+                    <p>We can make cakes for any occassion. Just let us know what you'd like and we'll do the rest!</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h3 style="font-family:Muli;">Phone and Email</h3>
+                    <p>1-212-555-5555
+                        <p>email@sweetbitesbysarah.com</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h3 style="font-family: Muli;">Location & Hours</h3>
+                    <p>1234 Main Street</p>
+                    <p>New York, NY</p>
+                    <p>Mon thru Fri: 9am to 9pm</p>
+                    <p>Sat & Sun: 10am to 8pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
